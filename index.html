@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <meta name="description" content="Curriculum de Brian Para La Tarea #1">
+    <meta name="keywords" content="Tarea, Curriculum, DdAW">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+        }
+        header h1 {
+            font-size: 24px;
+        }
+        a {
+            color: #00bfff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid white;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .nav-bar {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        .nav-bar {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+		.nav-bar a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .large-box {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            border: 2px solid white;
+            margin-top: 20px;
+        }
+        .info-box {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            border: 2px solid white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="#inicio">Inicio</a>
+        <a href="#informacion">Información</a>
+        <a href="#resumen">Resumen</a>
+        <a href="#galeria">Galería</a>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Curriculum</h1>
+        </header>
+        <div class="large-box" id="inicio">
+            <img src="IMG1.jpg" alt="Foto Representativa">
+            <ul>
+                <li>Nombre: Brian Josue Gonzalez Segura</li>
+                <li>Edad: 19 Años</li>
+                <li>Género: Masculino</li>
+                <li>Cumpleaños: 21 De Mayo</li>
+                <li>Otra Información: Posee Diabetes y Síndrome de Asperger</li>
+            </ul>
+        </div>
+        <div class="large-box info-box" id="informacion">
+            <h2>Información Académica</h2>
+            <ul>
+                <li>Carrera: Ingeniería Del Software</li>
+                <li>Curso: Diseño De Aplicaciones Web</li>
+                <li>Universidad: UTN</li>
+                <li>Año del Curso Actual: 2023</li>
+            </ul>
+            <h2>Experiencia Laboral</h2>
+            <ul>
+                <li>N/A</li>
+            </ul>
+            <h2>Hobbies Y Aficiones</h2>
+            <ul>
+                <li>Dibujo</li>
+                <li>Lectura</li>
+                <li>Series y Películas</li>
+            </ul>
+            <h2>Enlaces</h2>
+            <ul>
+                <li><a href="https://www.deviantart.com/icehead20" target="_blank">DeviantArt</a></li>
+                <li><a href="https://foimusic1.bandcamp.com" target="_blank">Bandcamp</a></li>
+            </ul>
+        </div>
+        <div class="large-box" id="resumen">
+            <h2>Resumen</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Numero</th>
+                        <th>Descripcion</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Logro 1</td>
+                        <td>Dibujo algo una vez</td>
+                        <td>Un día</td>
+                    </tr>
+                    <tr>
+                        <td>Logro 2</td>
+                        <td>Pasar las materias anteriores y llegar a esta Clase de ahora</td>
+                        <td>Hace dos semanas</td>
+                    </tr>
+                    <tr>
+                        <td>Logro 3</td>
+                        <td>Creación de un videojuego completo en RPGMaker para alguien</td>
+                        <td>Hace como 3 años?</td>
+                    </tr>
+                    <tr>
+                        <td>Logro 4</td>
+                        <td>Me hicieron una comisión una vez</td>
+                        <td>No me acuerdo</td>
+                    </tr>
+                    <tr>
+                        <td>Logro 5</td>
+                        <td>Tengo muchos Libros</td>
+                        <td>En diversas Fechas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="large-box gallery" id="galeria">
+            <h2>Galería de Arte</h2>
+            <img src="IMG2.jpg" alt="Double T Tower">
+            <img src="IMG3.jpg" alt="Effel">
+            <img src="IMG4.jpg" alt="Cobalto">
+            <img src="IMG5.jpg" alt="Bu Yu">
+        </div>
+        <p><a href="#inicio">Volver Arriba</a></p>
+        <footer>
+            <p>Página creada con GitHub</p>
+            <p>Brian Josue Gonzalez Segura - 2023</p>
+        </footer>
+    </div>
+</body>
+</html>
